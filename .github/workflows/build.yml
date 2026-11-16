@@ -1,0 +1,45 @@
+name: Build
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    runs-on: windows-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v5
+
+      - name: Install .NET 10 (needed by Dalamud.NET.Sdk 15)
+        uses: actions/setup-dotnet@v5
+        with:
+          dotnet-version: 10.0.x
+
+      - name: Download the Dalamud dev files (goatcorp's official distribution)
+        shell: pwsh
+        run: |
+          Invoke-WebRequest -Uri https://goatcorp.github.io/dalamud-distrib/latest.zip -OutFile "$env:RUNNER_TEMP\dalamud.zip"
+          Expand-Archive -Force "$env:RUNNER_TEMP\dalamud.zip" "$env:RUNNER_TEMP\dalamud"
+          "DALAMUD_HOME=$env:RUNNER_TEMP\dalamud" | Out-File -FilePath $env:GITHUB_ENV -Encoding utf8 -Append
+
+      - name: Check the JSON files, texts, demo posters and assets
+        run: python tools/check.py
+
+      - name: Restore (locked to packages.lock.json)
+        run: dotnet restore PingwayBoards/PingwayBoards.csproj --locked-mode
+
+      - name: Build
+        run: dotnet build PingwayBoards/PingwayBoards.csproj --configuration Release --no-restore
+
+      - name: Upload the plugin zip
+        uses: actions/upload-artifact@v4
+        with:
+          name: PingwayBoards
+          path: PingwayBoards/bin/x64/Release/PingwayBoards/*
+          if-no-files-found: error
+          retention-days: 14

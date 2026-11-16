@@ -1,0 +1,200 @@
+{
+  "_note": "Built-in sample posters for 'Demo: sample posters' (no network). Made up, with fake names. Same format as the pingway.app Boards feed v1, except that every time is relative to 0 = the moment the plugin loads them. Text only. View full poster opens the pingway.app homepage, since these posters are not on the website.",
+  "v": 1,
+  "generated": 0,
+  "posters": [
+    {
+      "id": 1, "kind": "lfm", "title": "Heavyweight prog static needs a healer",
+      "description": "Week 3 prog, mostly cleared M11S. Looking for a chill pure healer (WHM or AST preferred). Discord + voice needed.\n\nAbout us: six of us have raided together since Endwalker, so the group is settled and friendly. We review our own mistakes after each pull, nobody gets yelled at, and we take a short break every hour. We use a shared spreadsheet for strats and a simple loot rule (need before greed, one item per week each).\n\nWhat we hope for: you show up on time, know the current fights from guides or videos, and are fine with a voice call (talking is optional, listening is not). If that sounds good, sign up and we will message you for a short chat and a trial night.",
+      "host": "", "playtime": "", "region": "North America (NA)", "dc": "Aether", "world": "Gilgamesh", "worlds": [],
+      "content": ["m11s", "m12s"], "tags": [], "roles": ["healer"], "jobs": [], "schedule": "Tue / Thu 8–11 pm EST",
+      "eventAt": 0, "links": [{ "title": "Our Discord", "url": "https://example.com/our-discord" }, { "title": "Strat sheet", "url": "https://www.example.org/strats/heavyweight" }],
+      "ownerName": "Lyra Ashfeather", "createdAt": -172800000, "bumpedAt": -172800000, "url": "https://pingway.app/"
+    },
+    {
+      "id": 2, "kind": "lfm", "title": "Dancing Mad blind prog – 2 DPS",
+      "description": "Serious but friendly. We have logs from FRU and TOP. Tell us your experience!",
+      "host": "", "playtime": "", "region": "Europe (EU)", "dc": "Light", "world": "Odin", "worlds": [],
+      "content": ["dmu"], "tags": [], "roles": [], "jobs": ["vpr", "pct", "mch"], "schedule": "4 nights a week, 19:00–23:00 CET",
+      "eventAt": 0, "links": [], "ownerName": "Tobi Quickstep", "createdAt": -432000000, "bumpedAt": -432000000, "url": "https://pingway.app/"
+    },
+    {
+      "id": 3, "kind": "lfm", "title": "零式ヘビー級 消化固定 メンバー募集",
+      "description": "消化メインのゆるい固定です。ボイスチャットは聞き専OK。",
+      "host": "", "playtime": "", "region": "Japan (JP)", "dc": "Mana", "world": "Chocobo", "worlds": [],
+      "content": ["m9s", "m10s", "m11s", "m12s"], "tags": [], "roles": ["tank", "melee"], "jobs": [], "schedule": "毎週 水・日 21:00〜24:00",
+      "eventAt": 0, "links": [], "ownerName": "Mei Kurogane", "createdAt": -86400000, "bumpedAt": -86400000, "url": "https://pingway.app/"
+    },
+    {
+      "id": 4, "kind": "lfm", "title": "Old ultimates farm group (UCoB / UwU / TEA)",
+      "description": "Weekly clears for people who want the weapons or a fun reclear. Any job, just know the fight.",
+      "host": "", "playtime": "", "region": "North America (NA)", "dc": "Primal", "world": "Ultros", "worlds": [],
+      "content": ["ucob", "uwu", "tea"], "tags": [], "roles": ["tank", "healer", "melee", "ranged", "caster"], "jobs": [], "schedule": "Weekends, flexible",
+      "eventAt": 0, "links": [], "ownerName": "Brannoc Stone", "createdAt": -777600000, "bumpedAt": -777600000, "url": "https://pingway.app/"
+    },
+    {
+      "id": 5, "kind": "lfm", "title": "Casual maps & extremes crew",
+      "description": "Treasure maps, extremes, the odd alliance raid. No pressure, lots of laughs.",
+      "host": "", "playtime": "", "region": "Oceania (OCE)", "dc": "Materia", "world": "", "worlds": [],
+      "content": ["other"], "tags": [], "roles": ["ranged", "caster"], "jobs": [], "schedule": "Fri nights AEST",
+      "eventAt": 0, "links": [], "ownerName": "Selene Duskwhisper", "createdAt": -259200000, "bumpedAt": -259200000, "url": "https://pingway.app/"
+    },
+    {
+      "id": 6, "kind": "lfm", "title": "DSR reclear – need a Warrior",
+      "description": "One night a week, totem farm for the team. Please know P6/P7 well.",
+      "host": "", "playtime": "", "region": "Europe (EU)", "dc": "Chaos", "world": "Moogle", "worlds": [],
+      "content": ["dsr"], "tags": [], "roles": [], "jobs": ["war"], "schedule": "Mon 20:00 CET",
+      "eventAt": 0, "links": [], "ownerName": "Pip Pocketwatch", "createdAt": -1036800000, "bumpedAt": -1036800000, "url": "https://pingway.app/"
+    },
+    {
+      "id": 7, "kind": "lfs", "title": "Sage main looking for a Savage static",
+      "description": "Cleared Cruiserweight on week 2. English or Japanese are both fine for me.",
+      "host": "", "playtime": "", "region": "Japan (JP)", "dc": "Elemental", "world": "Tonberry", "worlds": [],
+      "content": ["m9s", "m10s", "m11s", "m12s"], "tags": [], "roles": [], "jobs": ["sge", "sch"], "schedule": "Weeknights after 22:00 JST",
+      "eventAt": 0, "links": [], "ownerName": "Hana Tsukiyo", "createdAt": -345600000, "bumpedAt": -345600000, "url": "https://pingway.app/"
+    },
+    {
+      "id": 8, "kind": "lfs", "title": "Gunbreaker for Futures Rewritten",
+      "description": "Have P1–P3 down from a previous group that broke up. Can flex to DRK.",
+      "host": "", "playtime": "", "region": "North America (NA)", "dc": "Crystal", "world": "Balmung", "worlds": [],
+      "content": ["fru"], "tags": [], "roles": [], "jobs": ["gnb", "drk"], "schedule": "Evenings PST",
+      "eventAt": 0, "links": [], "ownerName": "Garrick Emberfall", "createdAt": -518400000, "bumpedAt": -518400000, "url": "https://pingway.app/"
+    },
+    {
+      "id": 9, "kind": "lfs", "title": "Pictomancer looking for a chill group",
+      "description": "First time doing Savage on content! Want a patient group that likes to learn together.",
+      "host": "", "playtime": "", "region": "Europe (EU)", "dc": "Light", "world": "Phoenix", "worlds": [],
+      "content": ["m9s", "other"], "tags": [], "roles": ["caster"], "jobs": ["pct", "rdm"], "schedule": "Weekends only",
+      "eventAt": 0, "links": [], "ownerName": "Nyx Valentine", "createdAt": -172800000, "bumpedAt": -172800000, "url": "https://pingway.app/"
+    },
+    {
+      "id": 10, "kind": "lfs", "title": "Omega Protocol reclear partner",
+      "description": "Cleared TOP twice. Happy to help others clear too.",
+      "host": "", "playtime": "", "region": "North America (NA)", "dc": "Dynamis", "world": "", "worlds": [],
+      "content": ["top"], "tags": [], "roles": ["melee"], "jobs": ["drg", "rpr", "sam"], "schedule": "Sat 6 pm EST",
+      "eventAt": 0, "links": [], "ownerName": "Kael Ironroot", "createdAt": -604800000, "bumpedAt": -604800000, "url": "https://pingway.app/"
+    },
+    {
+      "id": 11, "kind": "fc", "title": "Lantern & Lute",
+      "description": "A cosy FC with a big house, weekly glam contests and map nights. Everyone is welcome, sprouts too!\n\nWe have about 40 members across EU time zones, a shared crafting room, a garden and a small stage for concerts. Ranks are simple and nobody has to log in every day.",
+      "host": "", "playtime": "", "region": "Europe (EU)", "dc": "Chaos", "world": "Cerberus", "worlds": [],
+      "content": [], "tags": ["casual", "chill", "newbie", "events", "housing"], "roles": [], "jobs": [], "schedule": "",
+      "eventAt": 0, "links": [{ "title": "FC Discord", "url": "https://example.net/lantern-and-lute" }],
+      "ownerName": "Lantern & Lute", "createdAt": -259200000, "bumpedAt": -259200000, "url": "https://pingway.app/"
+    },
+    {
+      "id": 12, "kind": "fc", "title": "Crimson Tide Company",
+      "description": "Two Savage statics, ultimate prog groups and a training night for people new to high-end raiding.",
+      "host": "", "playtime": "", "region": "North America (NA)", "dc": "Aether", "world": "Gilgamesh", "worlds": [],
+      "content": [], "tags": ["raid", "hardcore", "mentor"], "roles": [], "jobs": [], "schedule": "",
+      "eventAt": 0, "links": [], "ownerName": "Crimson Tide Company", "createdAt": -691200000, "bumpedAt": -691200000, "url": "https://pingway.app/"
+    },
+    {
+      "id": 13, "kind": "fc", "title": "Sprout Sanctuary",
+      "description": "Made for new players: questions are always welcome, mentors on most evenings, free crafted gear.",
+      "host": "", "playtime": "", "region": "Oceania (OCE)", "dc": "Materia", "world": "Bismarck", "worlds": [],
+      "content": [], "tags": ["newbie", "mentor", "casual", "crafting", "gathering"], "roles": [], "jobs": [], "schedule": "",
+      "eventAt": 0, "links": [], "ownerName": "Sprout Sanctuary", "createdAt": -86400000, "bumpedAt": -86400000, "url": "https://pingway.app/"
+    },
+    {
+      "id": 14, "kind": "fc", "title": "Gilded Carbuncle",
+      "description": "ロールプレイと季節イベントが好きなFCです。毎月ハウジング見学会をしています。",
+      "host": "", "playtime": "", "region": "Japan (JP)", "dc": "Gaia", "world": "Alexander", "worlds": [],
+      "content": [], "tags": ["roleplay", "events", "housing", "chill"], "roles": [], "jobs": [], "schedule": "",
+      "eventAt": 0, "links": [], "ownerName": "Gilded Carbuncle", "createdAt": -432000000, "bumpedAt": -432000000, "url": "https://pingway.app/"
+    },
+    {
+      "id": 15, "kind": "fc", "title": "Midnight Bakery",
+      "description": "Frontline and Crystalline Conflict on weekends, bake-off events (in game!) once a month.",
+      "host": "", "playtime": "", "region": "North America (NA)", "dc": "Primal", "world": "Behemoth", "worlds": [],
+      "content": [], "tags": ["pvp", "casual", "events"], "roles": [], "jobs": [], "schedule": "",
+      "eventAt": 0, "links": [], "ownerName": "Midnight Bakery", "createdAt": -864000000, "bumpedAt": -864000000, "url": "https://pingway.app/"
+    },
+    {
+      "id": 16, "kind": "lffc", "title": "Returning healer looking for a raid FC",
+      "description": "Back after a long break, White Mage main with a Scholar alt. I want an FC with a static or two and people who like to teach.",
+      "host": "", "playtime": "Weeknights 7–11 pm EST", "region": "North America (NA)", "dc": "Aether", "world": "", "worlds": ["Gilgamesh", "Siren"],
+      "content": [], "tags": ["raid", "mentor", "events"], "roles": [], "jobs": [], "schedule": "",
+      "eventAt": 0, "links": [{ "title": "My FFLogs", "url": "https://example.org/rowan-thistle" }],
+      "ownerName": "Rowan Thistle", "createdAt": -172800000, "bumpedAt": -172800000, "url": "https://pingway.app/"
+    },
+    {
+      "id": 17, "kind": "lffc", "title": "のんびりギャザクラFC探してます",
+      "description": "ギャザクラ中心で遊んでいます。どのワールドでも大丈夫です（移動します）。",
+      "host": "", "playtime": "週末の夜", "region": "Japan (JP)", "dc": "Mana", "world": "", "worlds": [],
+      "content": [], "tags": ["crafting", "gathering", "chill"], "roles": [], "jobs": [], "schedule": "",
+      "eventAt": 0, "links": [], "ownerName": "Sora Hoshino", "createdAt": -86400000, "bumpedAt": -86400000, "url": "https://pingway.app/"
+    },
+    {
+      "id": 18, "kind": "lffc", "title": "Roleplayer seeks a story-driven FC",
+      "description": "Long-time roleplayer, happy to join a house with an ongoing story or tavern nights.",
+      "host": "", "playtime": "Most evenings CET", "region": "Europe (EU)", "dc": "Light", "world": "", "worlds": ["Shiva", "Twintania", "Phoenix"],
+      "content": [], "tags": ["roleplay", "events", "housing"], "roles": [], "jobs": [], "schedule": "",
+      "eventAt": 0, "links": [], "ownerName": "Elowen Vale", "createdAt": -345600000, "bumpedAt": -345600000, "url": "https://pingway.app/"
+    },
+    {
+      "id": 19, "kind": "lffc", "title": "New player wants a friendly FC",
+      "description": "Just finished A Realm Reborn! Looking for people to run dungeons with and ask silly questions.",
+      "host": "", "playtime": "Evenings AEST", "region": "Oceania (OCE)", "dc": "Materia", "world": "", "worlds": ["Bismarck"],
+      "content": [], "tags": ["newbie", "mentor", "casual"], "roles": [], "jobs": [], "schedule": "",
+      "eventAt": 0, "links": [], "ownerName": "Pip Sproutling", "createdAt": -259200000, "bumpedAt": -259200000, "url": "https://pingway.app/"
+    },
+    {
+      "id": 20, "kind": "event", "title": "Moonlit Bard Concert",
+      "description": "Ten bards, one stage: Mist, Ward 12, Plot 30. Bring your best glam, dancing is welcome.",
+      "host": "Aria Songweaver", "playtime": "", "region": "North America (NA)", "dc": "Aether", "world": "Sargatanas", "worlds": [],
+      "content": [], "tags": [], "roles": [], "jobs": [], "schedule": "",
+      "eventAt": 266400000, "links": [{ "title": "Set list", "url": "https://example.com/moonlit-concert" }],
+      "ownerName": "Aria Songweaver", "createdAt": -172800000, "bumpedAt": -172800000, "url": "https://pingway.app/", "stars": 180, "featured": 3
+    },
+    {
+      "id": 21, "kind": "event", "title": "Glamour Contest: Winter Ball",
+      "description": "Theme: winter ball. Prizes for the top 3 (gil + housing items). Sign up in our Discord.",
+      "host": "Feline Fan Club", "playtime": "", "region": "Europe (EU)", "dc": "Light", "world": "Shiva", "worlds": [],
+      "content": [], "tags": [], "roles": [], "jobs": [], "schedule": "",
+      "eventAt": 536400000, "links": [], "ownerName": "Feline Fan Club", "createdAt": -86400000, "bumpedAt": -86400000, "url": "https://pingway.app/", "stars": 320, "featured": 1
+    },
+    {
+      "id": 22, "kind": "event", "title": "お茶会＆スクショ撮影会",
+      "description": "ラベンダーベッドの庭園でお茶会をします。どなたでもどうぞ！",
+      "host": "Tea Time FC", "playtime": "", "region": "Japan (JP)", "dc": "Meteor", "world": "Ramuh", "worlds": [],
+      "content": [], "tags": [], "roles": [], "jobs": [], "schedule": "",
+      "eventAt": 788400000, "links": [], "ownerName": "Tea Time FC", "createdAt": -345600000, "bumpedAt": -345600000, "url": "https://pingway.app/", "stars": 12, "featured": 0
+    },
+    {
+      "id": 23, "kind": "event", "title": "Chocobo Race Night",
+      "description": "Gold Saucer meetup, races all night, small gil prize for the fastest bird.",
+      "host": "Ruby Racers", "playtime": "", "region": "Oceania (OCE)", "dc": "Materia", "world": "Sophia", "worlds": [],
+      "content": [], "tags": [], "roles": [], "jobs": [], "schedule": "",
+      "eventAt": 1213200000, "links": [], "ownerName": "Ruby Racers", "createdAt": -259200000, "bumpedAt": -259200000, "url": "https://pingway.app/", "stars": 101, "featured": 0
+    },
+    {
+      "id": 24, "kind": "event", "title": "Gold Saucer Fashion Night",
+      "description": "Show your best glamour on the stage. Small prizes for every theme.",
+      "host": "Gold Saucer Stylists", "playtime": "", "region": "Japan (JP)", "dc": "Mana", "world": "Masamune", "worlds": [],
+      "content": [], "tags": [], "roles": [], "jobs": [], "schedule": "",
+      "eventAt": 187200000, "links": [], "ownerName": "Gold Saucer Stylists", "createdAt": -86400000, "bumpedAt": -86400000, "url": "https://pingway.app/", "stars": 230, "featured": 2
+    },
+    {
+      "id": 25, "kind": "event", "title": "Hunt train: Dawntrail S ranks",
+      "description": "All Dawntrail zones, instance 1 to 3. Join the PF a few minutes before.",
+      "host": "Hunt Conductor Yuna", "playtime": "", "region": "Europe (EU)", "dc": "Chaos", "world": "Cerberus", "worlds": [],
+      "content": [], "tags": [], "roles": [], "jobs": [], "schedule": "",
+      "eventAt": 93600000, "links": [], "ownerName": "Hunt Conductor Yuna", "createdAt": -259200000, "bumpedAt": -259200000, "url": "https://pingway.app/", "stars": 140, "featured": 0
+    },
+    {
+      "id": 26, "kind": "event", "title": "Housing tour: Mist ward 12",
+      "description": "Walk through ten houses, each with its own theme.",
+      "host": "Mist Ward Neighbours", "playtime": "", "region": "North America (NA)", "dc": "Primal", "world": "Leviathan", "worlds": [],
+      "content": [], "tags": [], "roles": [], "jobs": [], "schedule": "",
+      "eventAt": 626400000, "links": [], "ownerName": "Mist Ward Neighbours", "createdAt": -432000000, "bumpedAt": -432000000, "url": "https://pingway.app/", "stars": 100, "featured": 0
+    },
+    {
+      "id": 27, "kind": "event", "title": "Ishgard winter choir",
+      "description": "Carols on the steps of the Pillars. Bring a warm glamour.",
+      "host": "Ishgard Choir", "playtime": "", "region": "Oceania (OCE)", "dc": "Materia", "world": "Ravana", "worlds": [],
+      "content": [], "tags": [], "roles": [], "jobs": [], "schedule": "",
+      "eventAt": 892800000, "links": [], "ownerName": "Ishgard Choir", "createdAt": -3600000, "bumpedAt": -3600000, "url": "https://pingway.app/", "stars": 3, "featured": 0
+    }
+  ]
+}

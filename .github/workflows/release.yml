@@ -1,0 +1,46 @@
+name: Release
+
+on:
+  push:
+    tags: ['v*']
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    runs-on: windows-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v5
+
+      - name: Install .NET 10 (needed by Dalamud.NET.Sdk 15)
+        uses: actions/setup-dotnet@v5
+        with:
+          dotnet-version: 10.0.x
+
+      - name: Download the Dalamud dev files (goatcorp's official distribution)
+        shell: pwsh
+        run: |
+          Invoke-WebRequest -Uri https://goatcorp.github.io/dalamud-distrib/latest.zip -OutFile "$env:RUNNER_TEMP\dalamud.zip"
+          Expand-Archive -Force "$env:RUNNER_TEMP\dalamud.zip" "$env:RUNNER_TEMP\dalamud"
+          "DALAMUD_HOME=$env:RUNNER_TEMP\dalamud" | Out-File -FilePath $env:GITHUB_ENV -Encoding utf8 -Append
+
+      - name: Check the JSON files, texts, demo posters and assets
+        run: python tools/check.py
+
+      - name: Restore (locked to packages.lock.json)
+        run: dotnet restore PingwayBoards/PingwayBoards.csproj --locked-mode
+
+      - name: Build
+        run: dotnet build PingwayBoards/PingwayBoards.csproj --configuration Release --no-restore
+
+      - name: Create the GitHub Release with latest.zip
+        shell: pwsh
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh release create "$env:GITHUB_REF_NAME" "PingwayBoards/bin/x64/Release/PingwayBoards/latest.zip" `
+            --repo "$env:GITHUB_REPOSITORY" `
+            --title "Pingway Boards $env:GITHUB_REF_NAME" `
+            --notes "Pingway Boards $env:GITHUB_REF_NAME. Install through the custom plugin repository: https://raw.githubusercontent.com/rkyle27/pingway-boards-plugin/main/repo.json"

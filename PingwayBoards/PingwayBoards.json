@@ -1,0 +1,12 @@
+{
+  "Author": "River Zola",
+  "Name": "Pingway Boards",
+  "Punchline": "Read the Pingway Boards in game: statics, Free Companies and community events.",
+  "Description": "Shows the three Pingway Boards from pingway.app in an in-game window: Static recruitment (looking for members / looking for a static), FC recruitment (looking for members / looking for an FC) and Community events, with the same filters as the website.\n\nRead-only and text only: to sign up, recruit or invite, use \"View full poster\", which opens the poster on pingway.app in your browser after a warning. The plugin only reads the public Boards feed from pingway.app; no login, no game automation.\n\nOpen it with /pboards. Not affiliated with or endorsed by Square Enix.",
+  "RepoUrl": "https://github.com/rkyle27/pingway-boards-plugin",
+  "Tags": ["pingway", "boards", "recruitment", "static", "free company", "events", "community"],
+  "ApplicableVersion": "any",
+  "DalamudApiLevel": 15,
+  "IconUrl": "https://raw.githubusercontent.com/rkyle27/pingway-boards-plugin/main/PingwayBoards/images/icon.png",
+  "AcceptsFeedback": false
+}
