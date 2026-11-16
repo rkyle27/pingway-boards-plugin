@@ -40,6 +40,6 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: PingwayBoards
-          path: PingwayBoards/bin/x64/Release/PingwayBoards/*
+          path: PingwayBoards/bin/Release/PingwayBoards/*
           if-no-files-found: error
           retention-days: 14

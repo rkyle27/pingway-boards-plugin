@@ -40,7 +40,7 @@ jobs:
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
-          gh release create "$env:GITHUB_REF_NAME" "PingwayBoards/bin/x64/Release/PingwayBoards/latest.zip" `
+          gh release create "$env:GITHUB_REF_NAME" "PingwayBoards/bin/Release/PingwayBoards/latest.zip" `
             --repo "$env:GITHUB_REPOSITORY" `
             --title "Pingway Boards $env:GITHUB_REF_NAME" `
             --notes "Pingway Boards $env:GITHUB_REF_NAME. Install through the custom plugin repository: https://raw.githubusercontent.com/rkyle27/pingway-boards-plugin/main/repo.json"
