@@ -3,6 +3,11 @@ name: Release
 on:
   push:
     tags: ['v*']
+  workflow_dispatch:
+    inputs:
+      tag:
+        description: 'Version tag to create, e.g. v0.1.0'
+        required: true
 
 permissions:
   contents: write
@@ -39,8 +44,10 @@ jobs:
         shell: pwsh
         env:
           GH_TOKEN: ${{ github.token }}
+          TAG: ${{ github.event.inputs.tag || github.ref_name }}
         run: |
-          gh release create "$env:GITHUB_REF_NAME" "PingwayBoards/bin/Release/PingwayBoards/latest.zip" `
+          gh release create "$env:TAG" "PingwayBoards/bin/Release/PingwayBoards/latest.zip" `
+            --target "$env:GITHUB_SHA" `
             --repo "$env:GITHUB_REPOSITORY" `
-            --title "Pingway Boards $env:GITHUB_REF_NAME" `
-            --notes "Pingway Boards $env:GITHUB_REF_NAME. Install through the custom plugin repository: https://raw.githubusercontent.com/rkyle27/pingway-boards-plugin/main/repo.json"
+            --title "Pingway Boards $env:TAG" `
+            --notes "Pingway Boards $env:TAG. Install through the custom plugin repository: https://raw.githubusercontent.com/rkyle27/pingway-boards-plugin/main/repo.json"
